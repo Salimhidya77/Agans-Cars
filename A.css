@@ -1,0 +1,416 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-family: 'Amiri', serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Merienda', cursive;
+    Read our FAQ
+}
+
+.header {
+    /* border: 4px solid red; */
+    background-color: #3d4a59;
+    color: #fff;
+    border-radius: 0px 0px 50px 50px;
+    margin: 0px 5px 95px 5px;
+    height: 120px;
+    box-shadow: 2px 2px 10px #888;
+    position: fixed;
+    right: 0;
+    left: 0;
+
+}
+
+h1 {
+    /* border: 5px solid #888; */
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    background-color: #3d4a59;
+    color: #fff;
+    border-radius: 11px;
+    animation: anem1 10s infinite linear;
+}
+
+@keyframes anem1 {
+
+    0%,
+    100% {
+        letter-spacing: 0px;
+    }
+
+    50% {
+        letter-spacing: 2px;
+    }
+
+}
+
+.lidasighn,
+a {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    background-color: #3d4a59;
+    color: #fff;
+    border-radius: 11px;
+}
+
+h2:hover {
+    letter-spacing: 1px;
+    transition: 1s;
+    cursor: grab;
+}
+
+.mode {
+    border: 2px solid;
+    border-radius: 40px;
+}
+
+.lidasighn a:hover {
+    font-size: 20px;
+    transition: 2s;
+    background-color: rgb(17, 20, 56);
+    border: 2px solid;
+    border-radius: 40px;
+    cursor: grab;
+    letter-spacing: 1.5px;
+
+}
+
+.main {
+    /* border: 4px solid red; */
+    margin: 45px;
+    padding: 15px;
+    box-shadow: 5px 5px 20px #888;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+
+.do {
+    display: flex;
+    justify-content: center
+}
+
+.me {
+    margin-bottom: 15px;
+
+}
+
+.sectionleft {
+    /* border: 4px solid red; */
+    width: 40%;
+    padding-top: 60px;
+    text-align: center;
+    margin: 5px 0px 5px 5px;
+    margin-bottom: 20px;
+}
+
+.b {
+    /* border: 2px solid #000; */
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: red;
+    w
+}
+
+.c {
+    /* border: 2px solid #000; */
+
+    background-color: blue;
+}
+
+.b a:hover {
+    font-size: 20px;
+    transition: 2s;
+    border-radius: 20px;
+    letter-spacing: 1.5px;
+
+}
+
+.c a:hover {
+    font-size: 20px;
+    transition: 2s;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+
+
+}
+
+.sectionright {
+
+
+    /* border: 4px solid red; */
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+    padding-left: 90px;
+    margin: 30px 0px 5px 5px;
+}
+
+.img {
+
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border-top: 5px solid rgb(188, 16, 16);
+    border-bottom: 5px solid rgb(154, 22, 38);
+    border-left: 5px solid rgb(241, 113, 28);
+    border-right: 5px solid rgb(241, 113, 28);
+    margin-bottom: 10px;
+}
+
+.dont {
+    margin: 45px;
+    padding: 15px;
+    box-shadow: 5px 5px 20px #888;
+    border-radius: 20px;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px;
+    width: 20px;
+    padding: 5px;
+    /* border: 4px solid red; */
+    box-shadow: 5px 5px 20px #888;
+    border-radius: 20px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    align-items: center;
+}
+
+.card-body1,
+.card-body3 {
+    margin-top: 30px;
+}
+
+.card-img-top {
+    /* width: 100%; */
+    /* padding-right: 20px; */
+    border-radius: 8px;
+    margin-bottom: 4px;
+    align-items: center;
+    /* padding-right:14px; */
+
+}
+
+.btnbtn-primary {
+    background-color: #3d4a59;
+    /* background-color: #9e4673; */
+    border-radius: 5px;
+    margin: 4px;
+}
+
+footer {
+    /* border: 4px solid red; */
+    text-align: center;
+    margin: 45px;
+    box-shadow: 5px 5px 20px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.m {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #000;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.v {
+    padding: 10px;
+}
+
+a:hover {
+    font-size: 20px;
+    transition: 2s;
+    letter-spacing: 1.5px;
+
+}
+
+::-webkit-scrollbar {
+    width: 1.1rem;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #9e4673, #3d4a59);
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(270deg, #9e4673, #3d4a59, #9e4673);
+}
+
+for Firefox html {
+    scrollbar-color: #9e4673 #3d4a59;
+    scroll-behavior: smooth;
+}
+
+.contane {
+    /* border: 2px solid; */
+    margin: 5px;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.contane p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.contane button {
+    background-color: rgb(8, 72, 246);
+    color: #fff;
+    padding: 9px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 90px;
+    border: none;
+}
+
+.contane button:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: 1s;
+    font-size: 20px;
+    border-radius: 30%;
+    background-color: rgb(9, 135, 135);
+    color: #000;
+}
+
+.big {
+    background-color: rgba(102, 4, 53, 0.3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+}
+
+.mgg {
+    /* margin-top: 20px; */
+}
+
+.contane1 {
+    margin: 5px;
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.dark {
+    background-color: rgb(0, 38, 38);
+    color: #ebe5e5;
+}
+.dark #toot{
+    background-color: rgb(0, 20, 20);
+}
+.dark #boot{
+    background-color: rgb(0, 38, 39);
+}
+.dark #khyan{
+    background-color: rgb(0, 20, 20);
+}
+.dark h1 {
+    background-color: rgb(0, 20, 20);
+}
+
+.dark div1 {
+    background-color: rgb(0, 20, 20);
+}
+
+.dark h2 {
+    background-color: rgb(0, 20, 20);
+
+}
+
+.dark #buy {
+    background-color: rgb(0, 20, 20);
+
+}
+
+.dark #buy1 {
+    background-color: rgb(0, 20, 20);
+
+}
+
+.dark #buy2 {
+    background-color: rgb(0, 20, 20);
+
+}
+.dark li a:hover{
+    background-color: rgb(25, 147, 147);
+
+}
+
+
+
+.dark::-webkit-scrollbar {
+    width: 1.1rem;
+}
+
+.dark::-webkit-scrollbar-track {
+    border: 7px solid #0d1020;
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.dark::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #10072f, #3d4a59);
+    border-radius: 1rem;
+}
+
+.dark::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(270deg, #3e2834, #106ad1, #3e2834);
+}
+.but{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+}
+
+
